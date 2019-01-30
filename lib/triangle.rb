@@ -7,6 +7,12 @@ class Triangle
   end
 
   def kind
+    if 
+      begin
+      raise TriangleError
+    rescue TriangleError
+      end
+    else
     if @num1 == @num2 && @num2 == @num3
       return :equilateral
     elsif @num1 != @num2 && @num2 == @num3 || @num1 == @num2 && @num2 != @num3 || @num1 == @num3 && @num1 != @num2
@@ -14,10 +20,7 @@ class Triangle
     elsif @num1 != @num2 && @num1 != @num3 && @num2 !=@num3
       return :scalene
     else
-      begin
-        raise TriangleError
-      rescue TriangleError
-  end
+      
 end
 end
 
