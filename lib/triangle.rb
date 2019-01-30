@@ -19,7 +19,7 @@ class Triangle
       begin
       raise TriangleError
       end
-    elsif (@num1+@num3)<@num2
+    elsif (@num1+@num3)<=@num2
       begin
       raise TriangleError
       end
