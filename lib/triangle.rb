@@ -12,6 +12,7 @@ class Triangle
     elsif @num1 != @num2 && @num2 == @num3
       return :isosceles
     elsif @num1 != @num2 && @num1 != @num3 && @num2 !=@num3
+      return :scalene
   end
 
   # write code here
