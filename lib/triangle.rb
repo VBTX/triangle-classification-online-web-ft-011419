@@ -19,6 +19,10 @@ class Triangle
       begin
       raise TriangleError
       end
+    elsif (@num1+@num3)<@num2
+      begin
+      raise TriangleError
+      end
     else
       if @num1 == @num2 && @num2 == @num3
       return :equilateral
