@@ -7,7 +7,7 @@ class Triangle
   end
 
   def kind
-    if @num1 <= 0 || @num2<=0 ||@num3 <=0
+    if @num1 <= 0 || @num2 <= 0 ||@num3 <= 0
       begin
       raise TriangleError
     rescue TriangleError
