@@ -13,14 +13,13 @@ class Triangle
     rescue TriangleError
       end
     else
-    if @num1 == @num2 && @num2 == @num3
+      if @num1 == @num2 && @num2 == @num3
       return :equilateral
-    elsif @num1 != @num2 && @num2 == @num3 || @num1 == @num2 && @num2 != @num3 || @num1 == @num3 && @num1 != @num2
+      elsif @num1 != @num2 && @num2 == @num3 || @num1 == @num2 && @num2 != @num3 || @num1 == @num3 && @num1 != @num2
       return :isosceles
-    elsif @num1 != @num2 && @num1 != @num3 && @num2 !=@num3
+      elsif @num1 != @num2 && @num1 != @num3 && @num2 !=@num3
       return :scalene
-    else
-
+   end
 end
 end
 
