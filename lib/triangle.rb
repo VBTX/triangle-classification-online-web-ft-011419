@@ -6,5 +6,8 @@ class Triangle
     @num3 = num3
   end
 
+  def kind
+  end
+
   # write code here
 end
