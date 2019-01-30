@@ -7,7 +7,7 @@ class Triangle
   end
 
   def kind
-    if 
+    if
       begin
       raise TriangleError
     rescue TriangleError
@@ -20,7 +20,7 @@ class Triangle
     elsif @num1 != @num2 && @num1 != @num3 && @num2 !=@num3
       return :scalene
     else
-      
+
 end
 end
 
