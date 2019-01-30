@@ -10,7 +10,7 @@ class Triangle
     if @num1 <= 0 || @num2 <= 0 ||@num3 <= 0
       begin
       raise TriangleError
-    rescue TriangleError
+    rescue TriangleError => error
       end
     else
       if @num1 == @num2 && @num2 == @num3
